@@ -400,6 +400,31 @@
 .blog-items-wrapper{
     width: 30%;
     height: 100%;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+.blog-items-img-wrap{
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.i1{
+    background-image: url("https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?size=626&ext=jpg&ga=GA1.2.1015865261.1695043255&semt=sph");
+}
+.i2{
+    background-image: url("https://img.freepik.com/free-photo/elegant-hotel-room-with-big-bed_1203-1494.jpg?size=626&ext=jpg&ga=GA1.1.1015865261.1695043255&semt=sph");
+}
+.i3{
+    background-image: url("https://img.freepik.com/free-photo/luxury-bedroom-hotel_1150-10836.jpg?size=626&ext=jpg&ga=GA1.1.1015865261.1695043255&semt=sph");
+}
+.blog-desc{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.blog-desc>p{
+    text-align: justify;
+    padding: 0 20px;
 }
 /*blog-styles*/
