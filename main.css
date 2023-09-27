@@ -342,19 +342,43 @@
     width: 100%;
     min-height: 200px;
     height: auto;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .hidden-wrapper{
     width: 100%;
     min-height: 200px;
     height: auto;
-    background-color: blue;
     display: none;
 }
 .service-inner:hover>.shadow-wrapper>.show-wrapper{
     display: none;
 }
 .service-inner:hover>.shadow-wrapper>.hidden-wrapper{
-    display: block;
+    display: flex;
+    align-items: center;
+}
+.show-wrapper>p{
+    text-align: center;
+}
+.show-wrapper>h2{
+    text-align: center;
+}
+.show-wrapper>p>i{
+    font-size: 55px;
+    color: white;
+}
+.show-wrapper >h2{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+}
+.hidden-wrapper > p {
+    text-align: justify;
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto Light', sans-serif;
+    padding: 0 20px;
 }
 /*services-area-styles*/
